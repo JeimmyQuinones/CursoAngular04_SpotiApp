@@ -1,0 +1,6 @@
+<app-loading *ngIf="loadin"></app-loading>
+<div *ngIf="Error" class="alert alert-danger">
+    <h3>Error</h3>
+
+</div>
+<app-tarjeta [items]="nuevascanciones"></app-tarjeta>
